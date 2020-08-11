@@ -14,7 +14,9 @@
 	<p> Welcome to the udemy company home page! </p>
 	
 	<!-- Add a logout button -->
-	
+	<form:form action="${pageContext.request.contextPath}/logout" method="POST">
+		<input type="submit" value="logout"/>
+	</form:form>
 
 </body>
 </html>
